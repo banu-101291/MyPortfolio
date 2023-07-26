@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@100;200;300;600&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200 50px;
+}
+ .skillContainer__content{
+    color:white;
+    flex:0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+
+}
+.skillContainer__content > h2{
+    font-size: 30px;
+}
+
+.skillContainer__image{
+    flex:0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillContainer__image > img{
+    width:600px;
+    border-radius: 3px;
+    object-fit: contain;
+    padding-bottom: 20px;
+    padding-top:  40px;
+}
+
+h5{
+    font-family: "Monserrat",sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top:  10px;
+}
+
